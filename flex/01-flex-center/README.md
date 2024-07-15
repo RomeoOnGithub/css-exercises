@@ -10,3 +10,13 @@ All you need to do is center the red div inside the blue container.
 - Is the red div centered?
 - Did you _only_ use flexbox to center it?
 
+---
+### *my notes*
+
+- [x] 'activate' the flexbox functionality.
+    - via `display: flex;` in the container which now makes the child '.box' susceptible to flex related properties.
+- [x] center the items within the container on the primary axis.
+    - via `justify-content: center;`
+- [x] center the specific item on the cross axis
+    - via `align-self: center;`
+
